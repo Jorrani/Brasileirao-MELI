@@ -59,6 +59,36 @@ tfoot tr td{font-weight:700;background:var(--card)}
  td.nm{white-space:normal}
 }
 </style>
+<style>
+html{-webkit-text-size-adjust:100%}
+@media (max-width:600px){
+ header{padding:14px 12px;gap:10px;flex-direction:row;align-items:flex-start}
+ header .tx{min-width:0;flex:1 1 60%}
+ header h1{font-size:17px;line-height:1.25}
+ header .info{font-size:12px}
+ header .hero{width:96px;max-width:30%;flex:0 0 auto}
+ .btn{width:100%;margin-top:10px;padding:10px 12px}
+ main{padding:0 10px 24px}
+ h2{font-size:16px;margin:20px 0 6px}
+ .pods{grid-template-columns:1fr 1fr;gap:8px}
+ .pod{padding:10px}
+ .pn{font-size:14px}
+ .pv{font-size:12px}
+ .legend{font-size:11px;gap:8px}
+ .chart{padding:8px}
+ .cw{gap:4px}
+ .hc{min-width:70px}
+ .ok,.no{font-size:10px}
+ .tw{border-radius:8px}
+ table{min-width:600px}
+ th,td{font-size:10px;padding:4px 2px}
+ .note{font-size:11px}
+}
+@media (max-width:360px){
+ .pods{grid-template-columns:1fr}
+ header .hero{display:none}
+}
+</style>
 </head><body>
 <header><div class="tx"><h1>Produtividade noite 14/11/2026</h1><div class="info">Turno D0 = 14/11/2026<br>Janela: 13/11/2026 23H até 14/11/2026 06:59<br>Manager: Jorrani / Guilherme</div><button class="btn" onclick="document.body.classList.toggle('dark');this.textContent=document.body.classList.contains('dark')?'Modo claro':'Modo noturno'">Modo noturno</button></div><svg class="hero" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Competição e trabalho em equipe">
     <!-- troféu -->
